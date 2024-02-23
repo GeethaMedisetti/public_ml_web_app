@@ -5,12 +5,12 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/DELL/Desktop/Multiple Disease Prediction System/saved models/diabetes_model.sav', 'rb'))
-heart_disease_model = pickle.load(open('C:/Users/DELL/Desktop/Multiple Disease Prediction System/saved models/heart_disease_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-cancer_model = pickle.load(open('C:/Users/DELL/Desktop/Multiple Disease Prediction System/saved models/cancer_model.sav','rb'))
+cancer_model = pickle.load(open('cancer_model.sav','rb'))
 
-lung_cancer_model = pickle.load(open('C:/Users/DELL/Desktop/Multiple Disease Prediction System/saved models/lung_cancer_model.sav', 'rb'))
+lung_cancer_model = pickle.load(open('lung_cancer_model.sav', 'rb'))
 # sidebar for navigation
 with st.sidebar:
     
